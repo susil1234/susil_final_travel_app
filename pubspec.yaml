@@ -44,16 +44,17 @@ flutter:
   # To add assets to your application, add an assets section, like this:
    assets:
     - assets/flag.png
-    - assets/paklogo.png
-    - assets/pic1.jpg
-    - assets/pic2.jpg
-    - assets/pic3.jpg
-    - assets/pic4.jpg
-    - assets/pic5.jpg
-    - assets/pic6.jpg
-    - assets/pic7.jpg
-    - assets/pro1.jpg
-    - assets/pro2.jpg
+    - assets/logo.jpeg
+    - assets/swayambhu.jpg
+    - assets/pic1.jpeg
+    - assets/lumbini.jpeg
+    - assets/bunjeeJump.jpg
+    - assets/Dharahara.jpeg
+    - assets/AnnapurnaMassif.JPG
+    - assets/ChitwanNP.jpg
+    - assets/MT.Everest.jpeg
+    - assets/sal1.jpeg
+    - assets/kat.jpeg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

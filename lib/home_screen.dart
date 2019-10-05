@@ -32,7 +32,7 @@ Widget build(BuildContext context) {
 
       bottomNavigationBar: new BottomAppBar
     (
-      color: Colors.red,
+      color: Colors.black,
       child: new Container
       (
 
@@ -46,7 +46,7 @@ Widget build(BuildContext context) {
           [
             new IconButton
             (
-              icon: new Icon(Icons.signal_wifi_off),
+              icon: new Icon(Icons.arrow_back),
               iconSize: 50,
               color: Colors.white,
               onPressed: _logoutUser,
@@ -114,7 +114,7 @@ Widget build(BuildContext context) {
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 18.0),
-                child: Text('Minar-e-Pakistan',
+                child: Text('Swayambhunath',
                     style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
@@ -125,7 +125,7 @@ Widget build(BuildContext context) {
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 18.0),
-                child: Text('Minar-e-Pakistan is a minar which was built to',
+                child: Text('When this temple was founded about 2000 years ago, Kathmandu valley was filled with a great lake, When this temple was founded about 2000 years ago.',
                     style: TextStyle(color: Colors.grey[20], fontSize: 14.0)),
               ),
               SizedBox(
@@ -133,7 +133,7 @@ Widget build(BuildContext context) {
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 18.0),
-                child: Text('commemorate the day when the Pakistan resolution was passed on March 23, 1940.',
+                child: Text('The lotus flower settled on top of the hill and magically transformed into the stupa. Thus it is known as the self-created (swayambhu) stupa.',
                     style: TextStyle(color: Colors.grey[20], fontSize: 14.0)),
               ),
               SizedBox(
@@ -141,7 +141,7 @@ Widget build(BuildContext context) {
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 18.0),
-                child: Text('The location was originally known as Minto Park.',
+                child: Text('The location was originally known as Monkey Temple.',
                     style: TextStyle(color: Colors.grey[20], fontSize: 14.0)),
               ),
               SizedBox(
@@ -162,7 +162,7 @@ Widget build(BuildContext context) {
                           borderRadius: BorderRadius.circular(8.0),
                           image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: AssetImage('assets/paklogo.png'))),
+                              image: AssetImage('assets/swayambhu.jpg'))),
                     ),
                     Positioned(
                       top: 120.0,
@@ -201,7 +201,7 @@ Widget build(BuildContext context) {
                 padding: const EdgeInsets.only(left: 18.0, top: 16.0),
                 child: Row(
                   children: <Widget>[
-                    Text('Beautiful Spots',
+                    Text('Best Visit Nepal 2020',
                         style: TextStyle(
                             fontSize: 24.0,
                             color: Colors.black,
@@ -222,38 +222,38 @@ Widget build(BuildContext context) {
                     shrinkWrap: true,
                     scrollDirection: Axis.horizontal,
                     children: <Widget>[
-                      cardItemWidget(context, 'assets/pic1.jpg',
-                          'Faisal Masjid', '30 BOKING'),
+                      cardItemWidget(context, 'assets/pic1.jpeg',
+                          'Pashupatinath', '30 BOKING'),
                       Padding(
                         padding: EdgeInsets.only(left: 12.0),
                       ),
-                      cardItemWidget(context, 'assets/pic4.jpg',
-                          'Badshahi Mosque', '73 BOKING'),
+                      cardItemWidget(context, 'assets/lumbini.jpeg',
+                          'Lumbini Palace', '62 BOKING'),
                       Padding(
                         padding: EdgeInsets.only(left: 12.0),
                       ),
-                      cardItemWidget(context, 'assets/pic2.jpg',
-                          'Islamia College University', '92 BOKING'),
+                      cardItemWidget(context, 'assets/bunjeeJump.jpg',
+                          'Pokhara Bunjee Jumping', '100 BOKING'),
                       Padding(
                         padding: EdgeInsets.only(right: 12.0),
                       ),
-                      cardItemWidget(context, 'assets/pic3.jpg',
-                          'Hanna Lake, Quetta', '222 BOKING'),
+                      cardItemWidget(context, 'assets/Dharahara.jpeg',
+                          'Dharahara Tower', '20 BOKING'),
                       Padding(
                         padding: EdgeInsets.only(right: 12.0),
                       ),
-                      cardItemWidget(context, 'assets/pic5.jpg',
-                          'Mazar-e-Quaid Karachi', '992 BOKING'),
+                      cardItemWidget(context, 'assets/AnnapurnaMassif.JPG',
+                          'Annapurna Massif', '12 BOKING'),
                       Padding(
                         padding: EdgeInsets.only(right: 12.0),
                       ),
-                      cardItemWidget(context, 'assets/pic6.jpg',
-                          'Shangrila Resort - Skardu', '892 BOKING'),
+                      cardItemWidget(context, 'assets/ChitwanNP.jpg',
+                          'Chitwan National Park', '92 BOKING'),
                       Padding(
                         padding: EdgeInsets.only(right: 12.0),
                       ),
-                      cardItemWidget(context, 'assets/pic7.jpg',
-                          'Mirpur, Pakistan', '392 BOKING'),
+                      cardItemWidget(context, 'assets/MT.Everest.jpeg',
+                          'Mount Everest', '592 BOKING'),
                       Padding(
                         padding: EdgeInsets.only(right: 12.0),
                       ),
@@ -370,7 +370,7 @@ Widget build(BuildContext context) {
                     borderRadius: BorderRadius.circular(40.0),
                     border: Border.all(color: Colors.white),
                     image: DecorationImage(
-                        image: AssetImage('assets/pro2.jpg'),
+                        image: AssetImage('assets/sal1.jpeg'),
                         fit: BoxFit.cover)),
               ),
               Positioned(
@@ -398,7 +398,7 @@ Widget build(BuildContext context) {
                       borderRadius: BorderRadius.circular(40.0),
                       border: Border.all(color: Colors.white, width: 1.5),
                       image: DecorationImage(
-                          image: AssetImage('assets/pro1.jpg'),
+                          image: AssetImage('assets/kat.jpeg'),
                           fit: BoxFit.cover)),
                 ),
               ),

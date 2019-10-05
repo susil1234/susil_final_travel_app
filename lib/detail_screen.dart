@@ -145,17 +145,17 @@ class DetailScreen extends StatelessWidget {
                                               CrossAxisAlignment.start,
                                           children: <Widget>[
                                             Text(
-                                              'Islamabad is the capital city of Pakistan, and is federally administered as',
+                                              'The Pashupatinath Temple is a famous and sacred Hindu temple complex that',
                                               style: TextStyle(fontSize: 12.0),
                                             ),
                                             Text(
-                                              'part of the Islamabad Capital Territory.Islamabad is noted for its',
+                                              'is located on the banks of the Bagmati River, approximately 5 kilometres north-east of Kathmandu.',
                                               style: TextStyle(fontSize: 12.0),
                                             ),
                                             Row(
                                               children: <Widget>[
                                                 Text(
-                                                  'high standards of living, safety, and abundant greenery....',
+                                                  'Which is the capital of Nepal.',
                                                   style:
                                                       TextStyle(fontSize: 12.0),
                                                 ),

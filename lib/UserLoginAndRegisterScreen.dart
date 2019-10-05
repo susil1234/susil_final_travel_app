@@ -66,7 +66,7 @@ class _UserLoginAndRegisterState extends State<UserLoginAndRegisterPage>
         widget.onSignedIn();
       }catch(e)
       {
-       // dialogBox.information(context, "Error", e.toString());
+       
         print("Error: " + e.toString());
       }
     }
@@ -93,7 +93,7 @@ class _UserLoginAndRegisterState extends State<UserLoginAndRegisterPage>
   }
 
 
-  //USER INTERFACE DESIGN
+  //design part
   @override
   Widget build(BuildContext context) 
   {
@@ -175,7 +175,7 @@ class _UserLoginAndRegisterState extends State<UserLoginAndRegisterPage>
       (
         backgroundColor: Colors.transparent,
         radius: 100.0,
-        child: Image.asset('assets/flag.png'),
+        child: Image.asset('assets/logo.jpeg'),
       ),
 
     );
@@ -207,7 +207,7 @@ class _UserLoginAndRegisterState extends State<UserLoginAndRegisterPage>
 
           
         ];
-    }else //button widget for registration activity
+    }else 
     {
       return
         [
